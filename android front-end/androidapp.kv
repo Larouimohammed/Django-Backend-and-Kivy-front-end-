@@ -1,0 +1,19 @@
+#:kivy 1.0
+<MyRoot>:
+    random_lable: random_lable
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: "Boutique"
+            font_size: 64
+            color: 0.92 ,0.45, 0   
+        Label:
+            id : random_lable
+            text: "_"
+            font_size: 32
+            size: 150 , 50
+        Button:
+            text: "Boutique"
+            font_size: 32
+            size: 50 ,20
+            on_press: root.list()
